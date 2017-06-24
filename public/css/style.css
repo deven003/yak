@@ -1,0 +1,38 @@
+/*body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}*/
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.example, .structure {
+    border: 1px solid #ffdd57;
+    border-top-right-radius: 3px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.example:before,
+
+.structure:before {
+	background: #ffdd57;
+	border-radius: 3px 3px 0 0;
+	bottom: 100%;
+	content: "Upcoming bills for next 45 days";
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	left: -1px;
+	letter-spacing: 1px;
+	padding: 3px 5px;
+	position: absolute;
+	text-transform: uppercase;
+	vertical-align: top;
+}
