@@ -1,2 +1,2 @@
-# yak
-Yak - Simple Bill Reminder
+# Yak
+Yak - Simple Bill Reminder (Under Development)
